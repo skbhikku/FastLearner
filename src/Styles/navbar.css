@@ -1,0 +1,97 @@
+body{
+    position: absolute;
+}
+.nav{
+    pointer-events: none; /* navbar logo name */
+    color: rgb(241, 2, 2);
+    font-family:cursive;
+    font-weight:bolder;
+}
+.navbar{
+    background-color: #ffff00; /* navbar background color*/
+    font-size: 30px;    
+}
+.carddisplay{ /* Card displaying as flex*/
+    display: flex;
+    margin: 15px;
+    overflow: hidden;
+}
+.card {
+    width: 18rem;
+    overflow: hidden;
+}
+.card img{
+    height: 300px;
+}
+
+
+/* General styles for the books container */
+.booksContainer {
+    padding: 20px;
+}
+/* Search bar styles */
+.searchBar {
+    margin-top: 0;
+    background-color: #f8f9fa; /* Light background for the search bar */
+    padding: 10px; /* Spacing around the search bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    z-index: 1000; /* Ensure the search bar is above other content */
+}
+
+/* Card styles */
+.card {
+    transition: transform 0.2s; /* Smooth scaling on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05); /* Scale the card slightly on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth on hover */
+}
+
+/* Card image styles */
+.card-img-top {
+    border-top-left-radius: 8px; /* Rounded top left corner */
+    border-top-right-radius: 8px; /* Rounded top right corner */
+}
+
+/* Margin adjustment for the row */
+.row {
+    margin-top: 60px; /* Adjust margin to prevent overlap with the fixed search bar */
+}
+
+/* Styling for the button */
+.btn {
+    border-radius: 20px; /* Rounded button */
+}
+.booksContainer{
+    margin-top: 50px;
+}
+.loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.note{
+    margin: auto;
+}
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.blinkings {
+    text-align: center;
+    animation: blink 10s linear infinite;
+
+}

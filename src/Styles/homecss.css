@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+.home {
+    margin-top: 60px;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.blinking {
+    text-align: center;
+    animation: blink 1s infinite;
+
+}
+img{
+    margin: auto;
+    width: 50%;
+    height: 600px;
+}
+.icon{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}

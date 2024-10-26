@@ -1,0 +1,123 @@
+ {/* 
+      <div className="card mb-3" >
+        <div className="row g-0">
+          <div className="col-md-4 ">
+            <img  src={arr[currentIndex]} className="img-fluid rounded-start" alt="..."/>
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <p className="card-text" dangerouslySetInnerHTML={{ __html: arrdes[currentIndex] }}></p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+
+ {/* <div className="col">
+    <div className="card">
+      <img src={arr[currentIndex]} className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p dangerouslySetInnerHTML={{__html: arrdes[currentIndex]}} className="card-text"></p>
+      </div>
+    </div>
+  </div> */}
+
+
+      {/* <div className="d-flex justify-content-center">
+        <div className="w-100 images">
+          <img
+            className='img-fluid mb-3'
+            src={arr[currentIndex]}
+            alt=''
+            style={{ maxHeight: '400px', objectFit: 'cover' }}
+          />
+          <p
+            className='description text-justify'
+            dangerouslySetInnerHTML={{ __html: arrdes[currentIndex] }}
+          ></p>
+        </div>
+      </div> */}
+
+
+
+
+
+
+
+     {/* 
+      <div className="card mb-3" >
+        <div className="row g-0">
+          <div className="col-md-4 ">
+            <img  src={arr[currentIndex]} className="img-fluid rounded-start" alt="..."/>
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <p className="card-text" dangerouslySetInnerHTML={{ __html: arrdes[currentIndex] }}></p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       // Array of image files
+  let arr = [Donqui, hamlet, thegreat, tokilla];
+
+  // Array of book descriptions with line breaks and HTML formatting
+  let arrdes = [
+    `Don Quixote by Miguel de Cervantes Saavedra is a novel about an aging man who sets out on a series of adventures as a knight-errant:<br />
+    <strong>Characters:</strong><br />
+    The main characters are Don Quixote, a middle-aged man who becomes obsessed with chivalric romances, and his squire, Sancho Panza.<br />
+    <strong>Themes:</strong><br />
+    The novel explores themes of chivalry, romance, sanity, reality versus illusion, and the human experience.<br />
+    <strong>Plot:</strong><br />
+    Don Quixote sets out on his horse, Rocinante, to seek adventure and defend the helpless. He encounters many imaginary enemies, including giants, enchanters, and abductors.<br />
+    <strong>Adventures:</strong><br />
+    Some of the adventures Don Quixote and Sancho Panza have include:<br />
+    - Mistaking windmills for giants<br />
+    - Attacking monks<br />
+    - Battling sheep<br />
+    - Freeing convicted criminals<br />
+    - Defending a young shepherd from his angry master<br />
+    - Receiving a beating from some merchants<br />
+    <strong>Significance:</strong><br />
+    Don Quixote is considered a prototype of the modern novel and was written in the early 1600s.`,
+    `Hamlet is a tragedy written by William Shakespeare. It dramatizes the prince of Denmark's revenge against his uncle, who has murdered his father, taken the throne, and married his mother. The play explores themes of treachery, revenge, incest, and moral corruption.`,
+    `The Great Gatsby, by F. Scott Fitzgerald, is a novel about the American dream. It tells the story of Jay Gatsby, a wealthy man who is obsessed with winning back his former lover, Daisy Buchanan. The novel explores themes of wealth, love, and the pursuit of happiness.`,
+    `To Kill a Mockingbird, by Harper Lee, is a novel that deals with serious issues like racial injustice in the Deep South. It is narrated by a young girl named Scout Finch, whose father, Atticus Finch, is a lawyer defending a black man falsely accused of raping a white woman.`
+  ];
+
+  // State to keep track of the current index
+  // const [currentIndex, setCurrentIndex] = useState(0);
+
+  // // UseEffect to update the index every 5 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % arr.length);
+  //   }, 2000);
+
+  //   // Cleanup interval on component unmount
+  //   return () => clearInterval(interval);
+  // }, [arr.length]);
